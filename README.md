@@ -399,7 +399,7 @@ Full list of setups and corresponding performances are in the [Paper](https://ac
 **RUSpellRU**, **MultidomainGold**, **MedSpellChecker** and **GitHubTypoCorpusRu** come from [spellcheck_punctuation_benchmark](https://huggingface.co/datasets/ai-forever/spellcheck_punctuation_benchmark).
 The benchmark accounts for both punctuation and spelling errors. For the simplicity and better representativeness we report results only for those models
 ([sage-fredt5-large](https://huggingface.co/ai-forever/sage-fredt5-large), [sage-fredt5-distilled-95m](https://huggingface.co/ai-forever/sage-fredt5-distilled-95m)) that deal with both types of errors (the Russian language).
-The detailed metrics for other checkpoints can be found either in the [Paper](https://aclanthology.org/2024.findings-eacl.10/), [post](ссылка на новый хабр) or corresponding model card. 
+The detailed metrics for other checkpoints can be found either in the [Paper](https://aclanthology.org/2024.findings-eacl.10/), [post](https://habr.com/ru/companies/sberdevices/articles/806897/) or corresponding model card. 
 
 _NOTE:_ **MedSpellChecker** and **GitHubTypoCorpusRu** do not have train split, so their performance on 
 **Pre-train + fine-tune** setup is reported as a result of fine-tuning on combination of **RUSpellRU** and **MultidomainGold**
